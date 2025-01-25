@@ -19,7 +19,7 @@ def summarize_text(text, language="English", length="short"):
             messages=[
                 {"role": "system", "content": "You are a helpful assistant that summarizes texts."},
                 {"role": "user", "content": prompt}
-            ],  # Dodaj przecinek po zamknięciu listy
+            ], 
             temperature=0.5
         )
 
