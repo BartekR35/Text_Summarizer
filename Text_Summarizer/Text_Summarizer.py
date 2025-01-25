@@ -45,7 +45,7 @@ def save_summary_to_file(summary, file_path):
     try:
         with open(file_path, 'w', encoding='utf-8') as file:
             file.write(summary)
-        print(f"Podsumowanie zapisane do pliku: {file_path}")
+        print(f"Summary saved to the file: {file_path}")
     except Exception as e:
         return f"Error: {str(e)}"
 
